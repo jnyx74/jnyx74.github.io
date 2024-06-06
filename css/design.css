@@ -242,16 +242,14 @@ img {
 }
 
 .xhjIsPig .pig1 {
-    right: -10px;
-    bottom: 0;
-    transform: rotate(-25deg);
+    right: 50px;
+    bottom: 55px;
     animation: xhjPigRun1 2s infinite;
 }
 
 .xhjIsPig .pig2 {
-    left: -30px;
-    bottom: 0;
-    transform: scaleX(-1) rotate(-90deg);
+    left: 50px;
+    bottom: 5px;
     animation: xhjPigRun2 5s infinite;
 }
 
@@ -271,11 +269,11 @@ img {
 
 @keyframes xhjPigRun2 {
     0% {
-        bottom: 0;
+        right: 10%;
     }
 
     50% {
-        bottom: 20%;
+        right: 20%;
     }
 
     100% {

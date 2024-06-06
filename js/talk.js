@@ -1,15 +1,28 @@
-new TypeIt("#tqyxhj", {
+new TypeIt("#bodypart", {
         loop: true,
         cursorSpeed: 1000,
         speed: 100
     })
-    .type("TQY && XHJ")
+    .type("Remember this date?")
+    .pause(1500)
+    .break({delay: 500})
+    .break({delay: 500})
+    .type("<em>10.06.2025</em>")
+    .pause(2000)
+    .delete(1, {delay: 1000})
+    .type("4")
     .pause(2000)
     .delete(null, {
         delay: 500
     })
-    .type("一起走过的第二个520...")
-    .pause(3000)
+    .type("How about remember this date")
+    .pause(2000)
+    .delete(9, {delay: 500})
+    .type("<em>today?</em>")
+    .pause(2000)
+    .delete(null,{
+        delay: 500
+    })
     .go();
 
 new TypeIt('#talkToXHJ', {
