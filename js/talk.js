@@ -25,7 +25,7 @@ new TypeIt("#bodypart", {
     })
     .go();
 
-new TypeIt('#talkToXHJ', {
+new TypeIt('#mytalk', {
     lifeLike: true,
     cursorSpeed: 1000,
     waitUntilVisible: true,
