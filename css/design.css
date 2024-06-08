@@ -61,6 +61,26 @@ a:hover {
     background-attachment: fixed;
 }
 
+.btn_container {
+    padding-top: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.button {
+    background-color: #52616B; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: #F0F5F9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 /* 标题板块 */
 .title {
     height: 800px;
@@ -141,6 +161,7 @@ a:hover {
     background-image: linear-gradient(to right, rgba(0, 162, 255, 0.4), rgba(255, 0, 255, 0.2)), url(../images/bg3.jpg);
     padding-top: 200px;
     height: 700px;
+    font-size: 14px;
 }
 
 #talkToXHJ {
